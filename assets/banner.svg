@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="banner-title banner-description">
+  <title id="banner-title">Reinaldo Saraiva — Software, Cloud e Networks</title>
+  <desc id="banner-description">Banner de apresentação de Reinaldo Saraiva. Código que conecta infraestrutura e produto. Perfil @reinaldosaraiva. Fundo azul-marinho com conexões de rede em azul e verde.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0A1425"/>
+      <stop offset="0.58" stop-color="#101F35"/>
+      <stop offset="1" stop-color="#102C3A"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="64" y1="0" x2="316" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#50E3C2"/>
+      <stop offset="1" stop-color="#69ADFF"/>
+    </linearGradient>
+    <linearGradient id="node" x1="945" y1="101" x2="1063" y2="219" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#19374A"/>
+      <stop offset="1" stop-color="#102636"/>
+    </linearGradient>
+    <clipPath id="frame">
+      <rect width="1200" height="320" rx="24"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="320" fill="url(#background)"/>
+
+    <!-- Decorative network: independent of the accessible text content. -->
+    <g aria-hidden="true" fill="none">
+      <circle cx="1004" cy="160" r="205" stroke="#73ACCA" stroke-opacity="0.065"/>
+      <circle cx="1004" cy="160" r="153" stroke="#73ACCA" stroke-opacity="0.08"/>
+      <path d="M809 0V320M873 0V320M937 0V320M1001 0V320M1065 0V320M1129 0V320M1193 0V320M784 32H1200M784 96H1200M784 160H1200M784 224H1200M784 288H1200" stroke="#6BADC4" stroke-opacity="0.045"/>
+
+      <g stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+        <path d="M871 72H922V127H951" stroke="#5FDCC6" stroke-opacity="0.4"/>
+        <path d="M893 250H930V193H951" stroke="#72AEF8" stroke-opacity="0.4"/>
+        <path d="M1057 128H1090V76H1128" stroke="#72AEF8" stroke-opacity="0.4"/>
+        <path d="M1057 193H1091V245H1121" stroke="#5FDCC6" stroke-opacity="0.4"/>
+        <path d="M1063 160H1199" stroke="#65C8CB" stroke-opacity="0.18" stroke-dasharray="3 9"/>
+      </g>
+
+      <g fill="#102636" stroke-width="1.5">
+        <rect x="852" y="53" width="38" height="38" rx="11" stroke="#5FDCC6" stroke-opacity="0.65"/>
+        <rect x="874" y="231" width="38" height="38" rx="11" stroke="#72AEF8" stroke-opacity="0.65"/>
+        <rect x="1109" y="57" width="38" height="38" rx="11" stroke="#72AEF8" stroke-opacity="0.65"/>
+        <rect x="1102" y="226" width="38" height="38" rx="11" stroke="#5FDCC6" stroke-opacity="0.65"/>
+      </g>
+
+      <g stroke-linecap="round" stroke-width="2">
+        <path d="M865 69H877M865 75H873" stroke="#79E6D0"/>
+        <path d="M887 247H899M887 253H895" stroke="#8DBEFF"/>
+        <path d="M1122 73H1134M1122 79H1130" stroke="#8DBEFF"/>
+        <path d="M1115 242H1127M1115 248H1123" stroke="#79E6D0"/>
+      </g>
+
+      <rect x="945" y="101" width="118" height="118" rx="32" fill="url(#node)" stroke="#5FDCC6" stroke-opacity="0.5" stroke-width="1.5"/>
+      <rect x="952" y="108" width="104" height="104" rx="26" stroke="#7BD4DD" stroke-opacity="0.09"/>
+      <g stroke-linecap="round" stroke-linejoin="round" stroke-width="4">
+        <path d="M986 145L971 160L986 175" stroke="#70E7D1"/>
+        <path d="M1022 145L1037 160L1022 175" stroke="#85BFFF"/>
+        <path d="M1010 139L998 181" stroke="#D5ECF5"/>
+      </g>
+      <circle cx="922" cy="127" r="3" fill="#5FDCC6" stroke="none"/>
+      <circle cx="1091" cy="193" r="3" fill="#72AEF8" stroke="none"/>
+    </g>
+
+    <g font-family="Arial, Helvetica, sans-serif">
+      <text x="64" y="67" fill="#7CE5D0" font-size="16" font-weight="700" letter-spacing="3.1">SOFTWARE • CLOUD • NETWORKS</text>
+      <text x="61" y="146" fill="#F4F8FE" font-size="64" font-weight="700" letter-spacing="-1.9">Reinaldo Saraiva</text>
+      <text x="64" y="191" fill="#BCD0E3" font-size="25" font-weight="400">Código que conecta infraestrutura e produto.</text>
+      <rect x="64" y="224" width="252" height="3" rx="1.5" fill="url(#accent)"/>
+      <text x="64" y="271" fill="#8EAAC1" font-size="18" font-weight="400" letter-spacing="0.3">@reinaldosaraiva</text>
+    </g>
+  </g>
+</svg>
